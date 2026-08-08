@@ -5,8 +5,8 @@ import rings from "../assets/ring.png";
 const GROOM = "Dr.Rupesh";
 const BRIDE = "Dr.Sreelakshmi";
 const EVENT_DATE = new Date("2026-09-05T10:30:00");
-const VENUE_NAME = "Rajeevam House";
-const VENUE_SUB = "Mukkam,Kozhikode";
+const VENUE_NAME = "Royal Grand Convention Center";
+const VENUE_SUB = " Areekode, Kizhuparamba";
 const EVENT_DATE_LABEL = "5th September, 2026";
 const EVENT_DAY = "Saturday Morning";
 const EVENT_TIME = "10:30 AM Onwards";
@@ -903,7 +903,7 @@ function LocationSection() {
         <button
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          onClick={() => window.open("https://maps.app.goo.gl/ZACqZeYgriA1g1NT6?g_st=iw", "_blank")}
+          onClick={() => window.open("https://www.google.com/maps/place/Royal+Grand+Convention+Center/@11.3150367,75.8575557,10z/data=!4m6!3m5!1s0x3ba6474ab79f0499:0x7018194b737e929c!8m2!3d11.2494116!4d76.0062368!16s%2Fg%2F11vdq4_lb_?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D", "_blank")}
           style={{
             display: "inline-flex",
             alignItems: "center",
